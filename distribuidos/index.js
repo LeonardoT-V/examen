@@ -9,7 +9,7 @@ service.use(parser.json())
 const Cuenta = mongoose.model('Client', { nombre: String, saldo: Number, correo: String,direccion: String });
 
 
-mongoose.connect('mongodb+srv://root:root@cluster0.jcxnv.mongodb.net/yelp?retryWrites=true&w=majority')
+mongoose.connect('mongodb://administrador:asd123@server-quito,server-manta,server-guayaquil/?replicaSet=rsfacci&authMechanism=DEFAULT')
   .then(() => console.log('Conectado a la base de datos'))
   .catch((err) => console.log(err))
 

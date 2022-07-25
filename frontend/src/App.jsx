@@ -16,7 +16,6 @@ function App() {
 
         <Grid item sm={4}>
           <Formulario setActualizar={setActualizar} />
-          <Generador setActualizar={setActualizar} />
         </Grid>
 
         <Grid item sm={8}>
